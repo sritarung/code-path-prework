@@ -6,7 +6,7 @@ const cluePauseTime = 333;
 const nextClueWaitTime = 1000; 
 var mistakes;
 
-var pattern = [2,5,7,3,6,4,1,8];
+var pattern = [2,5,7,3,6,4];
 var progress = 0; 
 var gamePlaying = false;
 var tonePlaying= false;
@@ -16,9 +16,9 @@ var guessCounter=0;
 function getPattern()
 {
   var nPattern = [];
-  for(let i=0; i<8; i++)
+  for(let i=0; i<5; i++)
     {
-      nPattern[i] = Math.floor(Math.random() * 6) + 1;
+      nPattern[i] = Math.floor(Math.random() * 8) + 1;
     }
   console.log(nPattern);
   return nPattern;
@@ -39,7 +39,7 @@ function startGame(){
     // }},1000);
     t= 10; 
     obj=setInterval(function(){document.getElementById("seconds").innerHTML=String(t);
-                            t--; if(t==0){clearInterval(obj);t=10;loseGame();}},1000);
+                            t--; if(t<0){clearInterval(obj);t=10;loseGame();}},1000);
 }
 
 
