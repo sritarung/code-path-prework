@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 ![img](https://i.imgur.com/9Dnx7iO.gif)
 ![img](https://i.imgur.com/Y9Vwj2Y.gif)
-![img](https://i.imgur.com/YvdP3VW.gif)
+![img](https://i.imgur.com/lHfUjSU.gif)
 ![img](https://i.imgur.com/2eriC5B.gif)
 
 ## Reflection Questions
