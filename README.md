@@ -6,7 +6,7 @@ Submitted by: Sri Tarun Gulumuru
 
 Time spent: 6 hours spent in total
 
-Link to project: https://glitch.com/edit/#!/code-path-prework?path=README.md%3A82%3A0
+Link to project: https://glitch.com/edit/#!/code-path-prework?path=README.md%3A82%3A0 
 
 ## Required Functionality
 
