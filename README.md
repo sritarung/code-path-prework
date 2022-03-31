@@ -42,7 +42,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ![img](https://i.imgur.com/9Dnx7iO.gif)
 ![img](https://i.imgur.com/Y9Vwj2Y.gif)
-![](gif3-link-here)
+![img](https://i.imgur.com/YvdP3VW.gif)
 ![](gif4-link-here)
 
 
