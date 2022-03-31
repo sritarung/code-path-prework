@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <div id="clock">
+	  <span id="seconds">10</span>
+    </div>
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome to the light and sound memory game! 
+      Repeat back the pattern to win the game!
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img id="button1img" src="https://cdn.glitch.global/fd7c8e84-430e-4be1-bb68-57744ed3aa38/705646-tokyo-kushu-anime-manga-artwork-ghoul.jpg?v=1648671421810" alt="button1img"/></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"><img id="button2img" src="https://cdn.glitch.global/fd7c8e84-430e-4be1-bb68-57744ed3aa38/atktitan.jpg?v=1648672582492" alt="button2img"/></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"><img id="button3img" src="https://cdn.glitch.global/fd7c8e84-430e-4be1-bb68-57744ed3aa38/nar.png?v=1648671575627" alt="button3img"/></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"><img id="button4img" src="https://cdn.glitch.global/fd7c8e84-430e-4be1-bb68-57744ed3aa38/naruto.png?v=1648672114251" alt="button4img"/></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"><img id="button5img" src="https://cdn.glitch.global/fd7c8e84-430e-4be1-bb68-57744ed3aa38/leleouch.png?v=1648672283213" alt="button5img"/></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"><img id="button6img" src="https://cdn.glitch.global/fd7c8e84-430e-4be1-bb68-57744ed3aa38/gojou.png?v=1648672343459" alt="button6img"/></button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"><img id="button7img" src="https://cdn.glitch.global/fd7c8e84-430e-4be1-bb68-57744ed3aa38/onepunch.jpg?v=1648672475932" alt="button7img"/></button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"><img id="button8img" src="https://cdn.glitch.global/fd7c8e84-430e-4be1-bb68-57744ed3aa38/red.jpg?v=1648672412032" alt="button8img"/></button>
+    </div>
+  </body>
+</html>
