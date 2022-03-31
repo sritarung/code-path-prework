@@ -6,7 +6,8 @@ Submitted by: Sri Tarun Gulumuru
 
 Time spent: 6 hours spent in total
 
-Link to project: https://glitch.com/edit/#!/code-path-prework?path=README.md%3A82%3A0 
+Link to project: https://glitch.com/edit/#!/code-path-prework?path=README.md%3A82%3A0 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/76496716/161112204-2bb8f810-d24e-4f6a-96dd-238363fee808.gif)
+
 
 ## Required Functionality
 
@@ -39,7 +40,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
+
+![][Uploading ezgif.com-gif-maker.gif…]
+https://user-images.githubusercontent.com/76496716/161112359-af5fe31a-2678-4efe-9ac4-2295a328c02e.gif
+ 
 ![](gif2-link-here)
 ![](gif3-link-here)
 ![](gif4-link-here)
