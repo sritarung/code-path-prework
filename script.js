@@ -132,12 +132,9 @@ console.log("user guessed: " + btn);
     if(mistakes==2){
       alert("WARNING:Two mistakes!");
     }
-    if(mistakes==3){
-      alert("WARNING:Three mistakes!");
-    }
     //Guess was incorrect
     //GAME OVER: LOSE!
-    if(mistakes>=4){
+    if(mistakes>=3){
       loseGame();
     }
   }
