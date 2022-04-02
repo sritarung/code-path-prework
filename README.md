@@ -4,7 +4,7 @@
 
 Submitted by: Sri Tarun Gulumuru
 
-Time spent: 6 hours spent in total
+Time spent: 8 hours spent in total
 
 Link to project: https://glitch.com/edit/#!/code-path-prework?path=README.md%3A82%3A0 
 
@@ -46,22 +46,40 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
-[YOUR ANSWER HERE]
+
+I used the help of code grepper’s 5s countdown timer example and codepen to design the 10s timer onto the game. 
+
+W3schools was another useful resource that gave a brief explanation about code snippets, rules and formatting of the various css and html functions. It also provided various available color options for css button coloring.
+
+In addition, Stackoverflow provided useful information about similar implementations of functions in javascript like show image and remove image. It gave me deeper insights into the application and functionality of these functions. It also pointed out a few mistakes that could occur in these function implementations. 
+
+Mozilla gave help in the implementation of the random function.
+
+Finally, the youtube videos about set interval and close interval gave better understanding about their functionalities.
+
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+
+There were many bugs and uphills I encountered while doing the project. One of them is the fifth optional feature. The fifth optional feature was to add images or sounds to spruce up the buttons. Figuring out the css part was easy by making display as none initially but show when pressed. However, the java script part of making the pressing work was frustrating. For this, I had to write a show image and remove image functions. When a clue is played, the function shows the image and after a while closes the image. From the knowledge of light button and clear button logic, I did the same coding. It worked; nevertheless, it was not showing the image when the user was clicking. After a lot of research, I figured out that I had to add event listeners and remembered that the start tone worked on mouse down. After adding show image and remove image functions to the event listeners in html for buttons, the fifth optional feature was finished.
+
+Another feature that stood as an uphill for this project was the sixth optional feature. After some research, I figured out about making a division and a span that is initially written 10. Css was just changing width, height and color. The additional help from w3schools made me write padding, margin and text align. This puts the timer at a more user friendly/ attractive position. It was easy but a tedious task positioning the timer. The most frustrating part of implementing this feature was figuring out a way to decrease the timer to 0 when it stops the game. After a lot of researching and watching youtube videos on setInterval and closeInterval, a snippet of code online helped me figure out the algorithm to make the timer go from 10 to 0.  I positioned the setInterval timer going from ten to zero in the start game that calls clearInterval after reaching less than zero. The innerhtml and getelement helped me reflect these decrements from 10 to 0 onto the screen. In addition, added a clear interval function to stop the game so stopping the game stops the timer. Also, guessing the right pattern will reset the timer to 10 as I made the variable equal to ten in the guess function if the guess is correct.
+
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+From the understanding of this coding assignment, I have a lot of questions about the front end application of a website. I have queries about what all are the various properties that are required to position and implement a block aesthetically. I have gained knowledge about some properties about margin, aligning and padding, but I want to gain more knowledge about this user interface field to make more pleasing websites. The ability to attract an audience and make the website user friendly with easy access is a skill I want to endeavor for.  Backend is the most important feature in this project. Even though it is not explicitly visible, its application gives meaning to a program. I want to acknowledge more of its implementation. I want to explore the more complex functionalities developed in JavaScript. This will be my way into the exploration of the field of web development and making it a prospective career path in the future.
+
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+
+The audio is one of the features that I really would like to venture on. I tweaked snippets of frequency but that was not enough to fulfill my thirst for better audio. I would like to try the idea of giving each anime character on the buttons to say their respective dialogues/music videos when pressed rather than a random frequency tone. Additionally, I want to blend the images better into buttons, so it would be more appealing. A high score and hint block are some other features that could complement the functionality of the game. High score would store the highest score based on the time taken for the user to complete the game. On the other hand, hint would play the previously played clue sequence once again. These would make the game more interactive. Finally, adding a difficulty feature from easy to hard by decreasing the cluehold time respectively would make the user more competitive. Competition and interactiveness are two important things in a game’s implementation.
+
 
 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+https://youtu.be/n5vYTOkbygg 
 
 
 ## License
